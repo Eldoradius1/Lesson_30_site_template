@@ -1,0 +1,27 @@
+.post_item {
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px;
+    width: 350px;
+    position: relative;
+  }
+  
+  .like_btn {
+    border: 1px solid black;
+    background-color: azure;
+    padding: 5px;
+    width: 50px;
+    text-align: center;
+    cursor: pointer;
+  
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+  
+  .like_btn_active {
+    background-color: blue;
+    color: white;
+    border-color: transparent;
+  }
